@@ -18,7 +18,10 @@ const myTitles = [
 		title: "This is it...",
 		imageUrl: "https://picsum.photos/500/325?grayscale",
 	},
-	{ title: "This is not it!", imageUrl: "https://picsum.photos/500/325" },
+	{
+		title: "This is not it!",
+		imageUrl: "https://picsum.photos/500/325/?blur",
+	},
 ];
 
 //create your first component
