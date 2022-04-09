@@ -5,7 +5,7 @@ const Card = (props) => {
 	return (
 		<div className="card" style={{ width: "18rem" }}>
 			<img
-				src="https://picsum.photos/200"
+				src="https://picsum.photos/500/325"
 				className="card-img-top"
 				alt="..."
 			/>
@@ -17,9 +17,11 @@ const Card = (props) => {
 					hendrerit, purus et scelerisque faucibus, mauris augue
 					fermentum nibh, nec laoreet arcu leo vel erat.
 				</p>
-				<a href="#" className="btn btn-primary">
-					Find Out More!
-				</a>
+				<div class="card text-center">
+					<a href="#" className="btn btn-primary">
+						Find Out More!
+					</a>
+				</div>
 			</div>
 		</div>
 	);
