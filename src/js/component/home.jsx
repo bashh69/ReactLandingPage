@@ -6,10 +6,10 @@ import Jumbotron from "./JumboTron";
 import Card from "./Card";
 
 const myTitles = [
-	{ title: "First time Here" },
+	{ title: "Decide well or..." },
 	{ title: "Don't think about it" },
-	{ title: "This is it" },
-	{ title: "this is not it!" },
+	{ title: "This is it..." },
+	{ title: "This is not it!" },
 ];
 
 //create your first component
