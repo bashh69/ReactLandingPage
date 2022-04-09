@@ -6,10 +6,19 @@ import Jumbotron from "./JumboTron";
 import Card from "./Card";
 
 const myTitles = [
-	{ title: "Decide well or else..." },
-	{ title: "Don't think about it" },
-	{ title: "This is it..." },
-	{ title: "This is not it!" },
+	{
+		title: "Decide well or else...",
+		imageUrl: "https://picsum.photos/500/325",
+	},
+	{
+		title: "Don't think about it",
+		imageUrl: "https://picsum.photos/seed/picsum/500/325",
+	},
+	{
+		title: "This is it...",
+		imageUrl: "https://picsum.photos/500/325?grayscale",
+	},
+	{ title: "This is not it!", imageUrl: "https://picsum.photos/500/325" },
 ];
 
 //create your first component
@@ -22,7 +31,11 @@ const Home = () => {
 				{myTitles.map((element, index) => {
 					return (
 						<div className="col-3" key={index}>
-							<Card title={element.title} />
+							<Card
+								title={element.title}
+								Card
+								imageUrl={element.imageUrl}
+							/>
 						</div>
 					);
 				})}

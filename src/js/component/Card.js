@@ -4,11 +4,7 @@ import PropTypes from "prop-types";
 const Card = (props) => {
 	return (
 		<div className="card text-center" style={{ width: "18rem" }}>
-			<img
-				src="https://picsum.photos/500/325"
-				className="card-img-top"
-				alt="..."
-			/>
+			<img src={props.imageUrl} className="card-img-top" />
 			<div className="card-body">
 				<h5 className="card-title">{props.title}</h5>
 				<p className="card-text">
@@ -27,6 +23,7 @@ const Card = (props) => {
 
 Card.propTypes = {
 	title: PropTypes.string,
+	imageUrl: PropTypes.string,
 };
 
 export default Card;
