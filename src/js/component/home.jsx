@@ -6,7 +6,7 @@ import Jumbotron from "./JumboTron";
 import Card from "./Card";
 
 const myTitles = [
-	{ title: "Decide well or..." },
+	{ title: "Decide well or else..." },
 	{ title: "Don't think about it" },
 	{ title: "This is it..." },
 	{ title: "This is not it!" },

@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 const Card = (props) => {
 	return (
-		<div className="card" style={{ width: "18rem" }}>
+		<div className="card text-center" style={{ width: "18rem" }}>
 			<img
 				src="https://picsum.photos/500/325"
 				className="card-img-top"
@@ -17,11 +17,9 @@ const Card = (props) => {
 					hendrerit, purus et scelerisque faucibus, mauris augue
 					fermentum nibh, nec laoreet arcu leo vel erat.
 				</p>
-				<div class="card text-center">
-					<a href="#" className="btn btn-primary">
-						Find Out More!
-					</a>
-				</div>
+				<a href="#" className="btn btn-primary">
+					Find Out More!
+				</a>
 			</div>
 		</div>
 	);
